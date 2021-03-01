@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="page">
+<body>
     <!-- HEADER -->
     <header class="header">
         <nav class="header-nav">
@@ -35,8 +35,8 @@
             </ul>
         </nav>
 
-        <a class="mail-link link"  href="meilto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel-link link"  href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="contact-link link"  href="meilto:info@devstudio.com">info@devstudio.com</a>
+        <a class="contact-link link"  href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
     <main>
         <!-- HERO -->
@@ -100,50 +100,64 @@
                 </li>
             </ul>
         </section>
+
         <!-- TEAM -->
+
         <section>
+
             <h2 class="team-title title">Наша команда</h2>
-            <ul class="list">
+            <ul class="team-list list">
                 <li>
-                    <img src="./images/our-team/our-team.jpg" alt="Игорь улыбается" width="270" height="260">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <img src="./images/our-team/our-team.jpg" 
+                    alt="Игорь улыбается" 
+                    width="270" height="260">
+                    <h3 class="team-name-worker">Игорь Демьяненко</h3>
+                    <p class="team-specialty" lang="en">Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/our-team/our-team-1.jpg" alt="Ольга улыбается" width="270" height="260">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <img class="team-img"
+                    src="./images/our-team/our-team-1.jpg" 
+                    alt="Ольга улыбается" 
+                    width="270" height="260">
+                    <h3 class="team-name-worker">Ольга Репина</h3>
+                    <p class="team-specialty" lang="en">Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/our-team/our-team-2.jpg" alt="Николай улыбается" width="270" height="260">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <img class="team-img" 
+                    src="./images/our-team/our-team-2.jpg" 
+                    alt="Николай улыбается" 
+                    width="270" height="260">
+                    <h3 class="team-name-worker">Николай Тарасов</h3>
+                    <p class="team-specialty" lang="en">Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/our-team/our-team-3.jpg" alt="Михаил улыбается" width="270" height="260">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <img class="team-img" 
+                    src="./images/our-team/our-team-3.jpg" 
+                    alt="Михаил улыбается" 
+                    width="270" height="260">
+                    <h3 class="team-name-worker">Михаил Ермаков</h3>
+                    <p class="team-specialty" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
 
     </main>
-    <footer>
-        <a class="logo-link link" href="" lang="en">
-            <span class="prefix-logo">Web</span>Studio
+    <footer class="footer">
+        <a href="" class="footer-logo logo link" lang="en">
+        <span class="prefix-logo">Web</span>Studio
         </a>
-        <address class="address">
-            <ul class="list">
-                <li>
-                    <a class="link"  href="https://goo.gl/maps/bopX5m2xZZWuxhHe9" target="_blank" rel="noopener noreferrer">г. Киев,
+        <address class="footer-address address">
+            <ul class="footer-contact-list list">
+                <li class="footer-contact-item">
+                    <a class="footer-location link"  href="https://goo.gl/maps/bopX5m2xZZWuxhHe9" target="_blank" rel="noopener noreferrer">г. Киев,
                         пр-т Леси
                         Украинки, 26</a>
                 </li>
-                <li>
-                    <a class="link"  href="meilto:info@example.com">info@example.com</a>
+                <li class="footer-contact-item">
+                    <a class="footer-contact link"  href="meilto:info@example.com">info@example.com</a>
                 </li>
-                <li>
-                    <a class="link"  href="tel:+380991111111">+38 099 111 11 11</a>
+                <li class="footer-contact-item">
+                    <a class="footer-contact link"  href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
